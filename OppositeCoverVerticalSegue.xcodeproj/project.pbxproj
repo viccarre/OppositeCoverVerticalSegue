@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1295471971DE8A0080D849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1295461971DE8A0080D849 /* Foundation.framework */; };
+		5B1295491971DE8A0080D849 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1295481971DE8A0080D849 /* CoreGraphics.framework */; };
+		5B12954B1971DE8A0080D849 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12954A1971DE8A0080D849 /* UIKit.framework */; };
+		5B1295511971DE8A0080D849 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B12954F1971DE8A0080D849 /* InfoPlist.strings */; };
+		5B1295531971DE8A0080D849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1295521971DE8A0080D849 /* main.m */; };
+		5B1295571971DE8A0080D849 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1295561971DE8A0080D849 /* AppDelegate.m */; };
+		5B12955A1971DE8A0080D849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1295581971DE8A0080D849 /* Main.storyboard */; };
+		5B12955D1971DE8A0080D849 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12955C1971DE8A0080D849 /* ViewController.m */; };
+		5B12955F1971DE8A0080D849 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B12955E1971DE8A0080D849 /* Images.xcassets */; };
+		5B1295661971DE8A0080D849 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1295651971DE8A0080D849 /* XCTest.framework */; };
+		5B1295671971DE8A0080D849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1295461971DE8A0080D849 /* Foundation.framework */; };
+		5B1295681971DE8A0080D849 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12954A1971DE8A0080D849 /* UIKit.framework */; };
+		5B1295701971DE8A0080D849 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B12956E1971DE8A0080D849 /* InfoPlist.strings */; };
+		5B1295721971DE8A0080D849 /* OppositeCoverVerticalSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1295711971DE8A0080D849 /* OppositeCoverVerticalSegueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B1295691971DE8A0080D849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B12953B1971DE8A0080D849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1295421971DE8A0080D849;
+			remoteInfo = OppositeCoverVerticalSegue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B1295431971DE8A0080D849 /* OppositeCoverVerticalSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OppositeCoverVerticalSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1295461971DE8A0080D849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B1295481971DE8A0080D849 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B12954A1971DE8A0080D849 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B12954E1971DE8A0080D849 /* OppositeCoverVerticalSegue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OppositeCoverVerticalSegue-Info.plist"; sourceTree = "<group>"; };
+		5B1295501971DE8A0080D849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B1295521971DE8A0080D849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B1295541971DE8A0080D849 /* OppositeCoverVerticalSegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OppositeCoverVerticalSegue-Prefix.pch"; sourceTree = "<group>"; };
+		5B1295551971DE8A0080D849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B1295561971DE8A0080D849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B1295591971DE8A0080D849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B12955B1971DE8A0080D849 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B12955C1971DE8A0080D849 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B12955E1971DE8A0080D849 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B1295641971DE8A0080D849 /* OppositeCoverVerticalSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OppositeCoverVerticalSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1295651971DE8A0080D849 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B12956D1971DE8A0080D849 /* OppositeCoverVerticalSegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OppositeCoverVerticalSegueTests-Info.plist"; sourceTree = "<group>"; };
+		5B12956F1971DE8A0080D849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B1295711971DE8A0080D849 /* OppositeCoverVerticalSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OppositeCoverVerticalSegueTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1295401971DE8A0080D849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1295491971DE8A0080D849 /* CoreGraphics.framework in Frameworks */,
+				5B12954B1971DE8A0080D849 /* UIKit.framework in Frameworks */,
+				5B1295471971DE8A0080D849 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1295611971DE8A0080D849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1295661971DE8A0080D849 /* XCTest.framework in Frameworks */,
+				5B1295681971DE8A0080D849 /* UIKit.framework in Frameworks */,
+				5B1295671971DE8A0080D849 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B12953A1971DE8A0080D849 = {
+			isa = PBXGroup;
+			children = (
+				5B12954C1971DE8A0080D849 /* OppositeCoverVerticalSegue */,
+				5B12956B1971DE8A0080D849 /* OppositeCoverVerticalSegueTests */,
+				5B1295451971DE8A0080D849 /* Frameworks */,
+				5B1295441971DE8A0080D849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1295441971DE8A0080D849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1295431971DE8A0080D849 /* OppositeCoverVerticalSegue.app */,
+				5B1295641971DE8A0080D849 /* OppositeCoverVerticalSegueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1295451971DE8A0080D849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1295461971DE8A0080D849 /* Foundation.framework */,
+				5B1295481971DE8A0080D849 /* CoreGraphics.framework */,
+				5B12954A1971DE8A0080D849 /* UIKit.framework */,
+				5B1295651971DE8A0080D849 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B12954C1971DE8A0080D849 /* OppositeCoverVerticalSegue */ = {
+			isa = PBXGroup;
+			children = (
+				5B1295551971DE8A0080D849 /* AppDelegate.h */,
+				5B1295561971DE8A0080D849 /* AppDelegate.m */,
+				5B1295581971DE8A0080D849 /* Main.storyboard */,
+				5B12955B1971DE8A0080D849 /* ViewController.h */,
+				5B12955C1971DE8A0080D849 /* ViewController.m */,
+				5B12955E1971DE8A0080D849 /* Images.xcassets */,
+				5B12954D1971DE8A0080D849 /* Supporting Files */,
+			);
+			path = OppositeCoverVerticalSegue;
+			sourceTree = "<group>";
+		};
+		5B12954D1971DE8A0080D849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B12954E1971DE8A0080D849 /* OppositeCoverVerticalSegue-Info.plist */,
+				5B12954F1971DE8A0080D849 /* InfoPlist.strings */,
+				5B1295521971DE8A0080D849 /* main.m */,
+				5B1295541971DE8A0080D849 /* OppositeCoverVerticalSegue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B12956B1971DE8A0080D849 /* OppositeCoverVerticalSegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B1295711971DE8A0080D849 /* OppositeCoverVerticalSegueTests.m */,
+				5B12956C1971DE8A0080D849 /* Supporting Files */,
+			);
+			path = OppositeCoverVerticalSegueTests;
+			sourceTree = "<group>";
+		};
+		5B12956C1971DE8A0080D849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B12956D1971DE8A0080D849 /* OppositeCoverVerticalSegueTests-Info.plist */,
+				5B12956E1971DE8A0080D849 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1295421971DE8A0080D849 /* OppositeCoverVerticalSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1295751971DE8A0080D849 /* Build configuration list for PBXNativeTarget "OppositeCoverVerticalSegue" */;
+			buildPhases = (
+				5B12953F1971DE8A0080D849 /* Sources */,
+				5B1295401971DE8A0080D849 /* Frameworks */,
+				5B1295411971DE8A0080D849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OppositeCoverVerticalSegue;
+			productName = OppositeCoverVerticalSegue;
+			productReference = 5B1295431971DE8A0080D849 /* OppositeCoverVerticalSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B1295631971DE8A0080D849 /* OppositeCoverVerticalSegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1295781971DE8A0080D849 /* Build configuration list for PBXNativeTarget "OppositeCoverVerticalSegueTests" */;
+			buildPhases = (
+				5B1295601971DE8A0080D849 /* Sources */,
+				5B1295611971DE8A0080D849 /* Frameworks */,
+				5B1295621971DE8A0080D849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B12956A1971DE8A0080D849 /* PBXTargetDependency */,
+			);
+			name = OppositeCoverVerticalSegueTests;
+			productName = OppositeCoverVerticalSegueTests;
+			productReference = 5B1295641971DE8A0080D849 /* OppositeCoverVerticalSegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B12953B1971DE8A0080D849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Victor Carreño";
+				TargetAttributes = {
+					5B1295631971DE8A0080D849 = {
+						TestTargetID = 5B1295421971DE8A0080D849;
+					};
+				};
+			};
+			buildConfigurationList = 5B12953E1971DE8A0080D849 /* Build configuration list for PBXProject "OppositeCoverVerticalSegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B12953A1971DE8A0080D849;
+			productRefGroup = 5B1295441971DE8A0080D849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1295421971DE8A0080D849 /* OppositeCoverVerticalSegue */,
+				5B1295631971DE8A0080D849 /* OppositeCoverVerticalSegueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1295411971DE8A0080D849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B12955F1971DE8A0080D849 /* Images.xcassets in Resources */,
+				5B1295511971DE8A0080D849 /* InfoPlist.strings in Resources */,
+				5B12955A1971DE8A0080D849 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1295621971DE8A0080D849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1295701971DE8A0080D849 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B12953F1971DE8A0080D849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B12955D1971DE8A0080D849 /* ViewController.m in Sources */,
+				5B1295571971DE8A0080D849 /* AppDelegate.m in Sources */,
+				5B1295531971DE8A0080D849 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1295601971DE8A0080D849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1295721971DE8A0080D849 /* OppositeCoverVerticalSegueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B12956A1971DE8A0080D849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1295421971DE8A0080D849 /* OppositeCoverVerticalSegue */;
+			targetProxy = 5B1295691971DE8A0080D849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B12954F1971DE8A0080D849 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1295501971DE8A0080D849 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B1295581971DE8A0080D849 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1295591971DE8A0080D849 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B12956E1971DE8A0080D849 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B12956F1971DE8A0080D849 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B1295731971DE8A0080D849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B1295741971DE8A0080D849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B1295761971DE8A0080D849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OppositeCoverVerticalSegue/OppositeCoverVerticalSegue-Prefix.pch";
+				INFOPLIST_FILE = "OppositeCoverVerticalSegue/OppositeCoverVerticalSegue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B1295771971DE8A0080D849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OppositeCoverVerticalSegue/OppositeCoverVerticalSegue-Prefix.pch";
+				INFOPLIST_FILE = "OppositeCoverVerticalSegue/OppositeCoverVerticalSegue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B1295791971DE8A0080D849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OppositeCoverVerticalSegue.app/OppositeCoverVerticalSegue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OppositeCoverVerticalSegue/OppositeCoverVerticalSegue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OppositeCoverVerticalSegueTests/OppositeCoverVerticalSegueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B12957A1971DE8A0080D849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OppositeCoverVerticalSegue.app/OppositeCoverVerticalSegue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OppositeCoverVerticalSegue/OppositeCoverVerticalSegue-Prefix.pch";
+				INFOPLIST_FILE = "OppositeCoverVerticalSegueTests/OppositeCoverVerticalSegueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B12953E1971DE8A0080D849 /* Build configuration list for PBXProject "OppositeCoverVerticalSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1295731971DE8A0080D849 /* Debug */,
+				5B1295741971DE8A0080D849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1295751971DE8A0080D849 /* Build configuration list for PBXNativeTarget "OppositeCoverVerticalSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1295761971DE8A0080D849 /* Debug */,
+				5B1295771971DE8A0080D849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B1295781971DE8A0080D849 /* Build configuration list for PBXNativeTarget "OppositeCoverVerticalSegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1295791971DE8A0080D849 /* Debug */,
+				5B12957A1971DE8A0080D849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B12953B1971DE8A0080D849 /* Project object */;
+}
